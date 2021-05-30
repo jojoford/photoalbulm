@@ -1,0 +1,13 @@
+.titleWrapper {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0.5rem;
+    padding: 0.2rem;
+    border: 0.2rem solid rgba(0, 0, 0, 0.2); 
+    text-align: center;
+    width: 95%;
+}
+.pageTitle {
+    margin: 02.rem;
+    color: rgb(64,173,156);
+}
