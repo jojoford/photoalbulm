@@ -16,6 +16,7 @@ import About from './components/About';
 import Contact from './pages/Contact/contact';
 import Artists from './pages/artists';
 import Gallery from './pages/gallery';
+import Shopping from './components/shop/Shopping';
 
 import{ send } from 'emailjs-com';
 send("user_sEQrpGOlpMgWkdKpkI89Y");
@@ -68,6 +69,8 @@ function App() {
       <Route path="/artists" component={Artists} />
       <Route path="/contact" component={Contact} />
       <Route path="/gallery" component={Gallery}/>
+      <Route path="/shopping" component={Shopping}/>
+
     </Switch>
 
   </div>

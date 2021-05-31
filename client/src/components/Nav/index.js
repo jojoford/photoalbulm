@@ -39,11 +39,10 @@ function Nav() {
                 
           
         <Link className="nav-item"  to="/gallery">Shop Gallery</Link>
+        <Link className="nav-item"  to="/shopping">Shop </Link>
 
-        <ul className="right">
-                        
-                        <li><Link to="/cart"><i className="material-icons">shopping_cart</i></Link></li>
-                    </ul>
+        <ul className="right"><Link to="/cart"><i className="material-icons">shopping cart</i></Link></ul>
+                    
                 
                    
   
